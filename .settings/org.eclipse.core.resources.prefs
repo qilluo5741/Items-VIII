@@ -1,0 +1,19 @@
+#Mon May 30 11:06:09 CST 2016
+eclipse.preferences.version=1
+encoding//WebRoot/db/userinfo.sql=UTF-8
+encoding//src/org/deepin/Alipay/AlipayCore.java=UTF-8
+encoding//src/org/deepin/config/AlipayConfig.java=UTF-8
+encoding//src/org/deepin/config/WeixinConfig.java=UTF-8
+encoding//src/org/deepin/controller=UTF-8
+encoding//src/org/deepin/interceptor/AuthInterceptor.java=UTF-8
+encoding//src/org/deepin/mapper/UserInfoMapper.java=UTF-8
+encoding//src/org/deepin/service/IUserInfoService.java=UTF-8
+encoding//src/org/deepin/util/CreateCode.java=UTF-8
+encoding//src/org/deepin/util/Encryption.java=UTF-8
+encoding//src/org/deepin/util/Log.java=UTF-8
+encoding//src/org/deepin/util/MD5Util.java=UTF-8
+encoding//src/org/deepin/util/Pager.java=UTF-8
+encoding//src/org/deepin/util/RSA.java=UTF-8
+encoding//src/org/deepin/util/Result.java=UTF-8
+encoding//src/org/deepin/weixin/MD5Util.java=UTF-8
+encoding//src/org/deepin/weixin/WeixinUtil.java=UTF-8

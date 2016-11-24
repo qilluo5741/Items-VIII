@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- mapper中定义的是mybatis对某些业务的sql语句 -->
+<mapper namespace="org.deepin.mapper.UserInfoMapper">
+	<!-- 登录 -->
+	<select id="login" parameterType="org.deepin.entity.UserInfo" resultType="org.deepin.entity.UserInfo">
+		select * from UserInfo where userName=#{userName} and userPwd=#{userPwd}
+	</select>
+	<!-- 添加一个用户 -->
+	<insert id="addUser" parameterType="org.deepin.entity.UserInfo">
+		insert into UserInfo values(#{userId},#{userName},#{userPwd},#{userStatus},#{userTime},#{userRemark})
+	</insert>
+</mapper>
